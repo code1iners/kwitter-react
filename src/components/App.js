@@ -3,7 +3,7 @@ import AppRouter from "components/Router";
 import { authService } from "fbase";
 
 function App() {
-  // note. Declared react hooks.
+  // note. Declared auth service from firebase by react hooks.
   const [isLoggedIn, setIsLoggedIn] = useState(authService.currentUser);
   return (
     <>
